@@ -1,0 +1,21 @@
+
+import React from "react";
+
+import Navbar from "../components/Navbar";
+import Services from "../components/Services";
+import Footer from "../components/Footer";
+
+function ServicesPage() {
+  return (
+    <>
+      <Navbar />
+
+      <Services />
+
+      <Footer />
+    </>
+  );
+}
+
+export default ServicesPage;
+
